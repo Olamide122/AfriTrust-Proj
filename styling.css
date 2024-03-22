@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+/*    border: 1px solid grey;*/
+/*    height: 100px;*/
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.brand {
+    flex: 50%;
+    min-width: 400px
+}
+.searchbox {
+    flex: 50%;
+    display: flex;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    padding: 20px;
+}
+.text {
+    width: 250px;
+    font-size: 15px;
+    background: white;
+    padding: 4px;
+    color: black;
+}
+.submit {
+    background: #861BBF;
+    font-size: 15px;
+    padding: 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.brand a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
